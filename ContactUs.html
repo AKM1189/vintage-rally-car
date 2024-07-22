@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Contact Us</title>
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Arimo"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome-free-6.2.0-web/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <div class="heading">
+          <img src="images/logo3.png" alt="logo" />
+          <div class="title">
+            <h1>Vintage Rally Club</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <section>
+      <div class="navbar" id="mynavbar">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Drivers.html">Drivers</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Q&A.html">Q&A</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li>
+              <a class="icon" onclick="myFunction()"
+                ><i class="fa fa-bars"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- contact -->
+      <div class="contact-container col-5 col-m-5">
+        <div class="contactus">
+          <h2>Contact Us</h2>
+          <div class="contact-detail">
+            <div class="contact-type">
+              <h4>Phone</h4>
+              <p>+447975777666</p>
+            </div>
+            <div class="contact-type">
+              <h4>Email</h4>
+              <p>vintagerallyclub@gmail.com</p>
+            </div>
+            <div class="contact-type">
+              <h4>Address</h4>
+              <p>
+                Vintage Rallies LLP,<br />
+                No 4 Telford Court, Littlemead,<br />
+                Cranleigh, Surrey GU6 8ND, UK
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- entry box-->
+      <div class="entry-container col-6 col-m-6">
+        <div class="entry-box">
+          <div class="entry-header">
+            <h3>Please Enter Details Below.</h3>
+          </div>
+          <form class="entry-form">
+            <div class="entry-detail">
+              <h4><label for="firstname">First Name</label></h4>
+              <input
+                class="input"
+                id="firstname"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter First Name"
+              />
+            </div>
+            <div class="entry-detail">
+              <h4><label for="lastname">Last Name</label></h4>
+              <input
+                class="input"
+                id="lastname"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter Last Name"
+              />
+            </div>
+            <div class="entry-detail">
+              <h4><label for="country1">Country</label></h4>
+              <input
+                class="input"
+                id="country1"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter Country"
+              />
+            </div>
+          </form>
+          <div class="submit">
+            <button class="col-4 col-m-8">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="contact col-m-2">
+          <h4><a href="ContactUs.html">Contact Us</a></h4>
+        </div>
+        <div class="content col-m-5">
+          <p>&copy; Vintage Rally Club.All Right Reserved</p>
+        </div>
+        <div class="follow-us col-m-3">
+          <h4>Follow Us</h4>
+          <div class="fontawesome">
+            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // responsive navbar
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+
+      // sticky navbar
+      window.onscroll = function () {
+        stickynavbar();
+      };
+
+      var navbar = document.getElementById("mynavbar");
+      var sticky = navbar.offsetTop;
+
+      function stickynavbar() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

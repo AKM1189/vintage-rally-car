@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Register</title>
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Arimo"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome-free-6.2.0-web/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <div class="heading">
+          <img src="images/logo3.png" alt="logo" />
+          <div class="title">
+            <h1>Vintage Rally Club</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <section>
+      <div class="navbar" id="mynavbar">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Drivers.html">Drivers</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Q&A.html">Q&A</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li>
+              <a class="icon" onclick="myFunction()"
+                ><i class="fa fa-bars"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- stage-content start -->
+      <div class="stage-container">
+        <div class="stage-content col-10 col-m-10">
+          <div class="stage-heading">
+            <h2>Three Stages Of Our Rallies</h2>
+          </div>
+          <div class="stage">
+            <h3>Special Stage</h3>
+            <p>
+              Special stage is what you probably imagine when someone says
+              “rally”. A special stage is rally’s basic element. It takes place
+              on a piece of road or track that’s closed to public and ranges
+              from a couple of kilometres to several tens of kilometres in
+              length. The cars enter the stage in a set interval, usually a
+              minute or two, and each run is timed. The total time from all
+              special stages is what decides the result of the rally –
+              obviously, the crew with fastest time wins.
+            </p>
+          </div>
+          <br />
+          <div class="stage">
+            <h3>Super Special Stage</h3>
+            <p>
+              In WRC, Super special stage is typically the first stage of the
+              rally, held on the very first day of the event, usually Thursday
+              evening. It counts as other special stages, but it takes place on
+              a shorter track, often on a racing circuit or in a city centre,
+              and is designed to be more spectator-friendly, sometimes with the
+              whole course visible from one spot.
+            </p>
+          </div>
+          <br />
+          <div class="stage">
+            <h3>Transport Stage</h3>
+            <p>
+              Although they usually comprise the majority of distance driven on
+              any given rally, the transport stages are not driven on closed
+              roads or tracks, but instead in normal traffic, where drivers have
+              to obey the speed limits and other laws of the road. They are not
+              timed and their purpose is basically to take cars from the finish
+              of one special stage to the start of another.<br />
+              Over the years the rally has visited many countries over a wide
+              area of Europe; north to Finland, east to Hungary, west to the UK
+              and south to France and Switzerland.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- stage-content end -->
+
+      <!-- Form start -->
+      <div class="form-container">
+        <div class="form col-7 col-m-10">
+          <div class="header">
+            <h2>Register Your Interest In Our Rallies</h2>
+          </div>
+          <form class="register col-10 col-m-10">
+            <div class="detail">
+              <h3><label for="name">Name</label></h3>
+              <input
+                class="input"
+                id="name"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <div class="detail">
+              <h3><label for="city">City</label></h3>
+              <input
+                class="input"
+                id="city"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter Your City"
+              />
+            </div>
+            <div class="detail">
+              <h3><label for="country">Country</label></h3>
+              <input
+                class="input"
+                id="country"
+                type="text"
+                autocomplete="off"
+                placeholder="Enter Your Country"
+              />
+            </div>
+            <div class="detail">
+              <h3><label for="email">Email</label></h3>
+              <input
+                class="input"
+                id="email"
+                type="text"
+                autocomplete="off"
+                placeholder="sample123@example.com"
+              />
+            </div>
+            <div class="detail">
+              <h3><label for="password">Password</label></h3>
+              <input
+                class="input"
+                id="password"
+                type="password"
+                autocomplete="off"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" /> I agree with the terms and conditions
+            </div>
+          </form>
+          <div class="register">
+            <button class="col-3 col-m-4">Register</button>
+          </div>
+        </div>
+      </div>
+      <!-- Form end -->
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="contact col-m-2">
+          <h4><a href="ContactUs.html">Contact Us</a></h4>
+        </div>
+        <div class="content col-m-5">
+          <p>&copy; Vintage Rally Club.All Right Reserved</p>
+        </div>
+        <div class="follow-us col-m-3">
+          <h4>Follow Us</h4>
+          <div class="fontawesome">
+            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // responsive navbar
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+
+      // sticky navbar
+      window.onscroll = function () {
+        stickynavbar();
+      };
+
+      var navbar = document.getElementById("mynavbar");
+      var sticky = navbar.offsetTop;
+
+      function stickynavbar() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Vintage Rally Club</title>
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Arimo"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome-free-6.2.0-web/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container" id="container">
+        <div class="heading">
+          <img src="images/logo3.png" alt="logo" />
+          <div class="title">
+            <h1>Vintage Rally Club</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <section>
+      <div class="navbar" id="mynavbar">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Drivers.html">Drivers</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Q&A.html">Q&A</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li>
+              <a class="icon" onclick="myFunction()"
+                ><i class="fa fa-bars"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- Modal Popup -->
+      <div class="modal-popup col-4 col-m-6">
+        <div class="popup">
+          <div id="popup-close">&times;</div>
+          <div class="popup-title">
+            <h2>GET 30% OFF</h2>
+            <!-- <p>Enter Your Email And</p> -->
+            <p>
+              Buy Tickets for the
+              <a href="Events.html"><u>Upcoming Events</u></a>
+            </p>
+            <input
+              type="text"
+              class="popup-input col-12 col-m-12"
+              placeholder="Enter Your Email"
+            />
+            <button class="popupbtn">Get 30% Off</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- image slide start -->
+      <div class="image-slider">
+        <div class="slideshow">
+          <div class="slide fade">
+            <img src="images/P12.jpg" alt="image-slide" />
+          </div>
+
+          <div class="slide fade">
+            <img src="images/P11.jpg" alt="image-slide" />
+          </div>
+
+          <div class="slide fade">
+            <img src="images/CS1.jpg" alt="image-slide" />
+          </div>
+
+          <div class="slide fade">
+            <img src="images/P9.png" alt="image-slide" />
+          </div>
+
+          <div class="slide fade">
+            <img src="images/P10.png" alt="image-slide" />
+          </div>
+
+          <div class="slide fade">
+            <img src="images/P2.jfif" alt="image-slide" />
+          </div>
+        </div>
+        <div class="dotted">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+      <!-- slide image end -->
+
+      <!-- Club Intro Start -->
+      <div class="club">
+        <div class="text">
+          <div class="title">
+            <h2>Welcome To Vitage Rally Club</h2>
+          </div>
+          <p>
+            Vintage Rallies offers a unique selection of vintage car rallies
+            from around the world. We have 20 years’ experience organising both
+            competitive rallies and touring events. Our events offer the
+            opportunity for hundreds of classic car enthusiasts to enjoy rally
+            car driving on the lesser travelled by-ways. We specialise in South
+            East Asia, India, North and South America, Central America, the USA
+            and Europe. We would love to tell you more about all the wonderful
+            events that we organises and give you access to the whole of our
+            Vintage world, So what have you been waiting for? Join the Vintage
+            Rally Club now and enjoy full access to all the information on this
+            website as well as to be able to compete in events, receive our
+            superb publications and take advantage of our affiliations with
+            Principal Associates and other supporters.
+          </p>
+        </div>
+      </div>
+      <!-- Club Intro End -->
+
+      <!-- Car Images Start-->
+      <div class="image-container">
+        <div class="image-title">
+          <div class="title">
+            <h2>Vintage Rally Cars</h2>
+          </div>
+        </div>
+        <div class="rally-images col-12 col-m-12">
+          <div class="image col-4 col-m-6">
+            <a href="images/P16.jpg" target="_blank"
+              ><img
+                src="images/P16.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/P17.jpg" target="_blank"
+              ><img
+                src="images/P17.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/C12.jpg" target="_blank"
+              ><img
+                src="images/C12.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/CS5.jpg" target="_blank"
+              ><img
+                src="images/CS5.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/P14.jpg" target="_blank"
+              ><img
+                src="images/P14.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/P3.jpg" target="_blank"
+              ><img
+                src="images/P3.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/P13.jpg" target="_blank"
+              ><img
+                src="images/P13.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/P15.jpg" target="_blank"
+              ><img
+                src="images/P15.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+          <div class="image col-4 col-m-6">
+            <a href="images/vintage1.jpg" target="_blank"
+              ><img
+                src="images/vintage1.jpg"
+                alt="Vintage Rally Car"
+                title="Vintage Rally Car"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Car Images End -->
+
+      <!-- Rally Video Start-->
+      <div class="video-container">
+        <iframe
+          width="800"
+          height="500"
+          src="https://www.youtube.com/embed/Ibz_GQztgR0"
+        >
+        </iframe>
+      </div>
+      <!-- Rally Video End -->
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="contact col-3 col-m-3">
+          <h4><a href="ContactUs.html">Contact Us</a></h4>
+        </div>
+        <div class="content col-5 col-m-5">
+          <p>&copy; Vintage Rally Club. All Right Reserved</p>
+        </div>
+        <div class="follow-us col-3 col-m-3">
+          <h4>Follow Us</h4>
+          <div class="fontawesome">
+            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Popup
+      window.addEventListener("load", function () {
+        setTimeout(function open(event) {
+          document.querySelector(".modal-popup").style.display = "block";
+        }, 3000);
+      });
+      document
+        .querySelector("#popup-close")
+        .addEventListener("click", function () {
+          document.querySelector(".modal-popup").style.display = "none";
+        });
+
+      // responsive navbar
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+
+      // sticky navbar
+      window.onscroll = function () {
+        stickynavbar();
+      };
+
+      var navbar = document.getElementById("mynavbar");
+      var sticky = navbar.offsetTop;
+
+      function stickynavbar() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+
+      // image slider
+      let slideIndex = 0;
+      let slides = document.getElementsByClassName("slide");
+      let dots = document.getElementsByClassName("dot");
+      showSlides();
+
+      function showSlides() {
+        let i;
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+      }
+      function currentSlide(image) {
+        slides[image] = slides[image].replace();
+      }
+    </script>
+  </body>
+</html>
